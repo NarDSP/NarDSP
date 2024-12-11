@@ -1,0 +1,342 @@
+{
+	"vstgui-ui-description": {
+		"version": "1",
+		"bitmaps": {
+			"TanAlias": {
+				"path": "TanAlias.png"
+			}
+		},
+		"fonts": {
+			"Params": {
+				"font-name": "Min Sans",
+				"size": "30"
+			},
+			"Title": {
+				"alternative-font-names": "0",
+				"bold": "true",
+				"font-name": "Source Sans 3",
+				"size": "60"
+			}
+		},
+		"colors": {
+			"background": "#3d4879ff",
+			"knob_disk": "#161a2cff",
+			"knob_handle": "#ffffffff",
+			"text": "#ffffffff"
+		},
+		"gradients": {},
+		"control-tags": {
+			"A": "1",
+			"B": "2",
+			"C": "3"
+		},
+		"custom": {
+			"FocusDrawing": {},
+			"VST3Editor": {
+				"Path": "C:/DSP/NarDSP/TanAlias/resource/tanaliaseditor.uidesc"
+			},
+			"UIGridController": {
+				"Grids": "1x 1,5x 5,10x 10,12x 12,15x 15",
+				"Size": "10, 10"
+			},
+			"UITemplateController": {
+				"SelectedTemplate": "view"
+			},
+			"UIEditController": {
+				"EditViewScale": "1",
+				"EditorSize": "0, 0, 1536, 760",
+				"SplitViewSize_0_0": "0.8228882833787466433150825650955084711313",
+				"SplitViewSize_0_1": "0.1498637602179836436633308949240017682314",
+				"SplitViewSize_1_0": "0.4863760217983651434892067300097551196814",
+				"SplitViewSize_1_1": "0.5081743869209809361109364544972777366638",
+				"SplitViewSize_2_0": "0.7760416666666666296592325124947819858789",
+				"SplitViewSize_2_1": "0.220703125",
+				"TabSwitchValue": "6",
+				"Version": "1",
+				"ViewBackground": "0"
+			},
+			"UIAttributesController": {
+				"UIAttributesController": "tag"
+			},
+			"UIViewCreatorDataSource": {
+				"SelectedRow": "9"
+			},
+			"UIColorsDataSource": {
+				"SelectedRow": "1"
+			},
+			"UITagsDataSource": {
+				"SelectedRow": "-1"
+			},
+			"UIGradientsDataSource": {
+				"SelectedRow": "-1"
+			},
+			"UIBitmapsDataSource": {
+				"SelectedRow": "0"
+			},
+			"UIFontsDataSource": {
+				"SelectedRow": "0"
+			}
+		},
+		"templates": {
+			"view": {
+				"attributes": {
+					"background-color": "background",
+					"background-color-draw-style": "filled and stroked",
+					"class": "CViewContainer",
+					"mouse-enabled": "true",
+					"opacity": "1",
+					"origin": "0, 0",
+					"size": "450, 300",
+					"transparent": "false",
+					"wants-focus": "false"
+				},
+				"children": {
+					"CKnob": {
+						"attributes": {
+							"angle-range": "270",
+							"angle-start": "135",
+							"circle-drawing": "false",
+							"class": "CKnob",
+							"control-tag": "A",
+							"corona-color": "knob_handle",
+							"corona-dash-dot": "false",
+							"corona-dash-dot-lengths": "1.26,0.1",
+							"corona-drawing": "true",
+							"corona-from-center": "false",
+							"corona-inset": "18",
+							"corona-inverted": "false",
+							"corona-line-cap-butt": "true",
+							"corona-outline": "true",
+							"corona-outline-width-add": "8",
+							"handle-color": "~ WhiteCColor",
+							"handle-line-width": "16",
+							"handle-shadow-color": "knob_disk",
+							"knob-range": "200",
+							"opacity": "1",
+							"origin": "0, 100",
+							"size": "150, 150",
+							"skip-handle-drawing": "true",
+							"transparent": "false",
+							"value-inset": "3",
+							"wants-focus": "true",
+							"wheel-inc-value": "0.1",
+							"zoom-factor": "1.5"
+						}
+					},
+					"CKnob": {
+						"attributes": {
+							"angle-range": "270",
+							"angle-start": "135",
+							"circle-drawing": "false",
+							"class": "CKnob",
+							"control-tag": "B",
+							"corona-color": "knob_handle",
+							"corona-dash-dot": "false",
+							"corona-dash-dot-lengths": "1.26,0.1",
+							"corona-drawing": "true",
+							"corona-from-center": "false",
+							"corona-inset": "18",
+							"corona-inverted": "false",
+							"corona-line-cap-butt": "true",
+							"corona-outline": "true",
+							"corona-outline-width-add": "8",
+							"handle-color": "background",
+							"handle-line-width": "16",
+							"handle-shadow-color": "knob_disk",
+							"knob-range": "200",
+							"opacity": "1",
+							"origin": "150, 100",
+							"size": "150, 150",
+							"skip-handle-drawing": "true",
+							"transparent": "false",
+							"value-inset": "3",
+							"wants-focus": "true",
+							"wheel-inc-value": "0.1",
+							"zoom-factor": "1.5"
+						}
+					},
+					"CTextLabel": {
+						"attributes": {
+							"back-color": "background",
+							"background-offset": "0, 0",
+							"class": "CTextLabel",
+							"default-value": "0.5",
+							"font": "Params",
+							"font-antialias": "true",
+							"font-color": "text",
+							"frame-color": "background",
+							"frame-width": "1",
+							"max-value": "1",
+							"min-value": "0",
+							"mouse-enabled": "true",
+							"opacity": "1",
+							"origin": "0, 240",
+							"round-rect-radius": "6",
+							"shadow-color": "~ RedCColor",
+							"size": "150, 50",
+							"style-3D-in": "false",
+							"style-3D-out": "false",
+							"style-no-draw": "false",
+							"style-no-frame": "false",
+							"style-no-text": "false",
+							"style-round-rect": "false",
+							"style-shadow-text": "false",
+							"text-alignment": "center",
+							"text-inset": "0, 0",
+							"text-rotation": "0",
+							"text-shadow-offset": "1, 1",
+							"title": "Drive",
+							"transparent": "false",
+							"value-precision": "2",
+							"wants-focus": "true",
+							"wheel-inc-value": "0.1"
+						}
+					},
+					"CTextLabel": {
+						"attributes": {
+							"back-color": "background",
+							"background-offset": "0, 0",
+							"class": "CTextLabel",
+							"default-value": "0.5",
+							"font": "Params",
+							"font-antialias": "true",
+							"font-color": "text",
+							"frame-color": "background",
+							"frame-width": "1",
+							"max-value": "1",
+							"min-value": "0",
+							"mouse-enabled": "true",
+							"opacity": "1",
+							"origin": "150, 240",
+							"round-rect-radius": "6",
+							"shadow-color": "~ RedCColor",
+							"size": "150, 50",
+							"style-3D-in": "false",
+							"style-3D-out": "false",
+							"style-no-draw": "false",
+							"style-no-frame": "false",
+							"style-no-text": "false",
+							"style-round-rect": "false",
+							"style-shadow-text": "false",
+							"text-alignment": "center",
+							"text-inset": "0, 0",
+							"text-rotation": "0",
+							"text-shadow-offset": "1, 1",
+							"title": "Output",
+							"transparent": "false",
+							"value-precision": "2",
+							"wants-focus": "true",
+							"wheel-inc-value": "0.1"
+						}
+					},
+					"CTextLabel": {
+						"attributes": {
+							"back-color": "background",
+							"background-offset": "0, 0",
+							"class": "CTextLabel",
+							"default-value": "0.5",
+							"font": "Params",
+							"font-antialias": "true",
+							"font-color": "text",
+							"frame-color": "background",
+							"frame-width": "1",
+							"max-value": "1",
+							"min-value": "0",
+							"mouse-enabled": "true",
+							"opacity": "1",
+							"origin": "300, 240",
+							"round-rect-radius": "6",
+							"shadow-color": "~ RedCColor",
+							"size": "150, 50",
+							"style-3D-in": "false",
+							"style-3D-out": "false",
+							"style-no-draw": "false",
+							"style-no-frame": "false",
+							"style-no-text": "false",
+							"style-round-rect": "false",
+							"style-shadow-text": "false",
+							"text-alignment": "center",
+							"text-inset": "0, 0",
+							"text-rotation": "0",
+							"text-shadow-offset": "1, 1",
+							"title": "Dry–Wet",
+							"transparent": "false",
+							"value-precision": "2",
+							"wants-focus": "true",
+							"wheel-inc-value": "0.1"
+						}
+					},
+					"CTextLabel": {
+						"attributes": {
+							"back-color": "background",
+							"background-offset": "0, 0",
+							"class": "CTextLabel",
+							"default-value": "0.5",
+							"font": "Title",
+							"font-antialias": "true",
+							"font-color": "knob_disk",
+							"frame-color": "background",
+							"frame-width": "1",
+							"max-value": "1",
+							"min-value": "0",
+							"mouse-enabled": "true",
+							"opacity": "1",
+							"origin": "0, 0",
+							"round-rect-radius": "6",
+							"shadow-color": "~ RedCColor",
+							"size": "240, 100",
+							"style-3D-in": "false",
+							"style-3D-out": "false",
+							"style-no-draw": "false",
+							"style-no-frame": "false",
+							"style-no-text": "false",
+							"style-round-rect": "false",
+							"style-shadow-text": "false",
+							"text-alignment": "center",
+							"text-inset": "0, 0",
+							"text-rotation": "0",
+							"text-shadow-offset": "1, 1",
+							"title": "TanAlias",
+							"transparent": "false",
+							"value-precision": "2",
+							"wants-focus": "false",
+							"wheel-inc-value": "0.1"
+						}
+					},
+					"CKnob": {
+						"attributes": {
+							"angle-range": "270",
+							"angle-start": "135",
+							"circle-drawing": "false",
+							"class": "CKnob",
+							"control-tag": "C",
+							"corona-color": "knob_handle",
+							"corona-dash-dot": "false",
+							"corona-dash-dot-lengths": "1.26,0.1",
+							"corona-drawing": "true",
+							"corona-from-center": "false",
+							"corona-inset": "18",
+							"corona-inverted": "false",
+							"corona-line-cap-butt": "true",
+							"corona-outline": "true",
+							"corona-outline-width-add": "8",
+							"handle-color": "background",
+							"handle-line-width": "16",
+							"handle-shadow-color": "knob_disk",
+							"knob-range": "200",
+							"opacity": "1",
+							"origin": "300, 100",
+							"size": "150, 150",
+							"skip-handle-drawing": "true",
+							"transparent": "false",
+							"value-inset": "3",
+							"wants-focus": "true",
+							"wheel-inc-value": "0.1",
+							"zoom-factor": "1.5"
+						}
+					}
+				}
+			}
+		}
+	}
+}
