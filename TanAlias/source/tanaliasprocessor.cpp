@@ -558,7 +558,7 @@ tresult PLUGIN_API TanAliasProcessor::process(Vst::ProcessData& data)
 		double outL = 0.0;
 		double outR = 0.0;
 
-		highestFrequencyL = estimateHighestFrequencyFFTW(in2Fixed, sampleRate, fftSize, fftwInput, fftwOutput, fftwPlan);
+		highestFrequencyL = estimateHighestFrequencyFFTW(in1Fixed, sampleRate, fftSize, fftwInput, fftwOutput, fftwPlan);
 		highestFrequencyR = estimateHighestFrequencyFFTW(in2Fixed, sampleRate, fftSize, fftwInput, fftwOutput, fftwPlan);
 
 		for (int i = 0; i < 30; i++) {

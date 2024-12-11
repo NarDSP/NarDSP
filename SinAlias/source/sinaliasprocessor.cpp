@@ -420,7 +420,7 @@ tresult PLUGIN_API SinAliasProcessor::process(Vst::ProcessData& data)
 		double outL = 0.0;
 		double outR = 0.0;
 
-		highestFrequencyL = estimateHighestFrequencyFFTW(in2Fixed, sampleRate, fftSize, fftwInput, fftwOutput, fftwPlan);
+		highestFrequencyL = estimateHighestFrequencyFFTW(in1Fixed, sampleRate, fftSize, fftwInput, fftwOutput, fftwPlan);
 		highestFrequencyR = estimateHighestFrequencyFFTW(in2Fixed, sampleRate, fftSize, fftwInput, fftwOutput, fftwPlan);
 
 		prevAtten[0] = atten[0];
